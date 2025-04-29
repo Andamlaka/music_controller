@@ -39,7 +39,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'music_controller.urls'
+ROOT_URLCONF = 'my_music_controller.urls'
 
 TEMPLATES = [
     {
@@ -57,7 +57,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'music_controller.wsgi.application'
+WSGI_APPLICATION = 'my_music_controller.wsgi.application'
 
 # Database: use PostgreSQL in production, fallback to SQLite in local dev
 DATABASES = {
